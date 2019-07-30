@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+
+    switch(o) {
+        case 1:
+            caso1();
+            break;
+        case 2:
+            caso2();
+            break;
+        default:
+            funcion_default();
+    }
+
+    do{
+        x++;
+        cout<<x;
+
+        if(x>9) {
+            cout<<x;
+        }
+    }while(x < 9);
+
+    return 0;
+}

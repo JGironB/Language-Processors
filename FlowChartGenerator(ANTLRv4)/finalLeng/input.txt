@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main() {
+
+    for(int i=0; i< 10; ++i) {
+        i += funcion_suma(i,i+1);
+        i += funcion_resta(i,i+1);
+        i += funcion_division(i,i+1);
+        i += funcion_multiplicacion(i,i+1);
+
+        if(i == 100)
+            break;
+    }
+
+}
+
+int funcion_suma(int x, int y){
+    int z = x+y;
+    return z;
+}
+
+int funcion_multiplicacion(int x, int y){
+    int z = x*y;
+    return z;
+}
+
+int funcion_division(int x, int y){
+    int z = x/y;
+    return z;
+}
+
+int funcion_resta(int x, int y){
+    int z = x-y;
+    return z;
+}

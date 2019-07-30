@@ -1,0 +1,21 @@
+<var,2,1>
+<dos_puntos,2,4>
+<numerico,2,6>
+<imprimir,2,18>
+<id,ares,2,26>
+<cadena,",",2,30>
+<id,Ingrese,2,34>
+<leer,2,44>
+<id,suma,2,50>
+<desde,3,5>
+<id,asta,3,10>
+<id,o,3,14>
+<llave_izq,3,17>
+<id,suma,4,9>
+<id,uma,4,13>
+<llave_der,5,5>
+<imprimir,6,5>
+<cadena,"La suma es ",6,13>
+<coma,6,26>
+<id,suma,6,28>
+<fin,7,1>
